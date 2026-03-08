@@ -19,7 +19,7 @@ body{
 
     background: linear-gradient(0deg,rgba(10, 10, 10, 1) 0%, rgba(133, 133, 133, 1) 87%);
 
-    height: 100vh;
+    height: 100%;
     width: 100%;
 }
 
@@ -43,6 +43,23 @@ main{
     align-items: center;
     flex-direction: row;
     gap: 2em;
+
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: 50%;
+}
+
+#hero{
+    width: 100%;
+}
+
+.hero-img{
+    width: 100%;
+    opacity: 30%;
 }
 
 h2{
@@ -58,7 +75,7 @@ h2{
 }
 
 section{
-    background-color: rgba( 255, 255, 255, 0.5);
+    background: radial-gradient(circle,rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
     border-radius: 10px;
 }
 
@@ -66,14 +83,12 @@ section{
     width: 80%;
 }
 
-
-
 footer{
     display: flex;
     justify-content: center;
     align-items: center;
 
-    background-color: rgba( 255, 255, 255, 0.5);
+    background: radial-gradient(circle,rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
     border-radius: 10px;
     
     width: 100%;
