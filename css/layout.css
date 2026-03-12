@@ -1,15 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
-
-*{
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-
-    padding: 10px;
-}
+@import url(reset.css);
+@import url(componentes.css);
 
 body{
     display: flex;
@@ -53,35 +44,11 @@ main{
     top: 50%;
 }
 
-#hero{
-    width: 100%;
-}
-
-.hero-img{
-    width: 100%;
-    opacity: 30%;
-}
-
-h2{
-    font-family: "Audiowide";
-    background-color: rgba(0, 0, 0, 0.792);
-
-    border-radius: 10px;
-    margin: 5px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 section{
     background: radial-gradient(circle,rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
     border-radius: 10px;
 }
 
-.section-2{
-    width: 80%;
-}
 
 footer{
     display: flex;
@@ -92,4 +59,50 @@ footer{
     border-radius: 10px;
     
     width: 100%;
+}
+
+#hero{
+    width: 100%;
+    background: black;
+}
+
+.hero-img{
+    width: 100%;
+    opacity: 60%;
+}
+
+a{
+    font-size: larger;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.section-2{
+    width: 80%;
+}
+
+.destaque{
+    background: pink;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.botao{
+    background-color: rgb(221, 239, 255);
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.botao:hover{
+    background-color: rgb(222, 108, 127);
+}
+
+ul li:first-child{
+    color: black;
+}
+
+img{
+    width: 400px;
 }
